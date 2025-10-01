@@ -1,3 +1,5 @@
+//exercicio de mostrar o menor vaor e a sua posição,utilizando matrizes 
+
 #include <stdio.h>
 
 int main() {
