@@ -1,5 +1,6 @@
 
 //**************EXERCICIO DO BEECROWD ****************
+
 #include <stdio.h>
 
 #define limite 1000//definindo quando vale uma variavel 
