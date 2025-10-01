@@ -1,3 +1,5 @@
+//menor valor e a posição no vetor, feito por ponteiro
+
 include <stdio.h>
 
 #define limite 1000
