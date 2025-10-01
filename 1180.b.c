@@ -1,5 +1,5 @@
 
-//esse exercicio é para mostrar o numero menor e em qual posição ele está 
+//esse exercicio é para mostrar o numero menor e em qual posição ele está com alocação de memoria 
 
 #include <stdio.h>
 #include <stdlib.h> // necessário para malloc e free
