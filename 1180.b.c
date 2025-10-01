@@ -1,5 +1,9 @@
+
+//esse exercicio é para mostrar o numero menor e em qual posição ele está 
+
 #include <stdio.h>
 #include <stdlib.h> // necessário para malloc e free
+
 
 int main() {
     int n, menor, posicao; 
