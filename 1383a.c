@@ -1,4 +1,5 @@
-//exercicio de mostrar o menor vaor e a sua posição,utilizando matrizes 
+//exercicio de mostrar do sudoku
+
 
 #include <stdio.h>
 
