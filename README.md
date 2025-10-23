@@ -7,3 +7,5 @@ Atividades realizadas na disciplina de algoritmo e estrutura de dados na Univers
 1383 - a) normal c) alocação dinamica 
 
 1068 - a) vetores  1068 b) listas encadeadas
+
+1062 ordenação de vagões - a) pilhas 
