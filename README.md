@@ -14,3 +14,6 @@ Atividades realizadas na disciplina de algoritmo e estrutura de dados na Univers
 
 2460 qnatidade de pessoas na fila c) lista
      
+1566 qsort 
+
+1195 arvore binaria 
