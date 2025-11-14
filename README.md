@@ -17,3 +17,8 @@ Atividades realizadas na disciplina de algoritmo e estrutura de dados na Univers
 1566 qsort 
 
 1195 arvore binaria 
+
+1610.a) - matriz
+1610.b) - lista 
+
+14.1.1.c - exercicio feofilof de varrer uma arvore binaria 
