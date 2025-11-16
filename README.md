@@ -22,3 +22,4 @@ Atividades realizadas na disciplina de algoritmo e estrutura de dados na Univers
 1610.b) - lista 
 
 14.1.1.c - exercicio feofilof de varrer uma arvore binaria 
+14.2.2.c - ex para calcular o numero de nós
