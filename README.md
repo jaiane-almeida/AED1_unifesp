@@ -21,5 +21,7 @@ Atividades realizadas na disciplina de algoritmo e estrutura de dados na Univers
 1610.a) - matriz
 1610.b) - lista (de adjacencia)
 
+4.6.1.c - busca e remove de lista, ex feofiloff
+
 14.1.1.c - exercicio feofilof de varrer uma arvore binaria 
 14.2.2.c - ex para calcular o numero de nós
