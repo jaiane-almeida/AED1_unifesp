@@ -1,0 +1,74 @@
+//exercicio 1610.a Dudu faz serviço, com matrizes de adjacencia 
+
+#include <stdio.h>
+#include <string.h>
+
+#define MAX 10005   // maior valor possível de N nos testes grandes
+
+int adj[MAX][MAX];  // matriz de adjacência
+int estado[MAX];    // 0 = não visitado, 1 = visitando, 2 = visitado
+int N, M;
+int achou_ciclo;
+
+
+void dfs(int u) {
+    estado[u] = 1;  // marca como "visitando"
+
+    for (int v = 1; v <= N; v++) {
+        if (adj[u][v]) { // existe aresta u -> v
+            if (estado[v] == 1) {
+                // ciclo detectado
+                achou_ciclo = 1;
+                return;
+            }
+            if (estado[v] == 0) {
+                dfs(v);
+                if (achou_ciclo) return;
+            }
+        }
+    }
+
+    estado[u] = 2; // terminado
+}
+
+int main() {
+    int T;
+    scanf("%d", &T);
+
+    while (T--) {
+
+        scanf("%d %d", &N, &M);
+
+        // limpar matriz e estados
+        for (int i = 1; i <= N; i++) {
+            estado[i] = 0;
+            for (int j = 1; j <= N; j++) {
+                adj[i][j] = 0;
+            }
+        }
+
+        // ler dependências
+        for (int i = 0; i < M; i++) {
+            int A, B;
+            scanf("%d %d", &A, &B);
+            adj[A][B] = 1; // A depende de B
+        }
+
+        achou_ciclo = 0;
+
+        // faz DFS a partir de todos os nós não visitados
+        for (int i = 1; i <= N; i++) {
+            if (estado[i] == 0) {
+                dfs(i);
+                if (achou_ciclo) break;
+            }
+        }
+
+        if (achou_ciclo)
+            printf("SIM\n");
+        else
+            printf("NAO\n");
+    }
+
+    return 0;
+}
