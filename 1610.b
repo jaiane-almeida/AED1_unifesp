@@ -76,5 +76,27 @@ int main() {
         for (int i = 0; i < M; i++) {
             int A, B;
             scanf("%d %d", &A, &B);  
-            add(A, B);     //
+            add(A, B);    
+          }
+
+        achou_ciclo = 0;   // zera flag de ciclo
+
+        // Executa DFS a partir de todos os nós não visitados
+        for (int i = 1; i <= N; i++) {
+            if (estado[i] == 0) {  // só inicia DFS em vértices não visitados
+                dfs(i);
+                if (achou_ciclo)   // se encontrar ciclo, pode parar
+                    break;
+            }
+        }
+
+        // IMPRIME RESULTADO PARA O CASO
+        if (achou_ciclo)
+            printf("SIM\n");   // existe loop
+        else
+            printf("NAO\n");   // não existe loop
+    }
+
+    return 0;   
+}
 
