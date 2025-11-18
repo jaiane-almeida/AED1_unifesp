@@ -25,3 +25,5 @@ Atividades realizadas na disciplina de algoritmo e estrutura de dados na Univers
 
 14.1.1.c - exercicio feofilof de varrer uma arvore binaria 
 14.2.2.c - ex para calcular o numero de nós
+
+1200 busca arvores binárias, Operações em ABP I
